@@ -18,7 +18,7 @@ console.log(result, " Mile");
 //Wood Calculator
 
 function woodCalculator(chair, table, bed) {
-    if (chair > 0 && table > 0 && bed > 0) {
+    if (chair >= 0 && table >= 0 && bed >= 0) {
         var woodForChair = chair * 1;
         var woodForTable = table * 3;
         var woodForBed = bed * 5;
